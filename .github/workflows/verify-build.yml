@@ -20,7 +20,7 @@ jobs:
           bundler-cache: false
 
       - name: Install Jekyll and plugins
-        run: gem install jekyll jekyll-feed jekyll-paginate jekyll-sitemap jekyll-redirect-from jemoji
+        run: gem install jekyll jekyll-feed jekyll-gist jekyll-paginate jekyll-sitemap jekyll-redirect-from jemoji
 
       - name: Build site
         run: |
