@@ -23,6 +23,6 @@ jobs:
         run: gem install jekyll jekyll-feed jekyll-paginate jekyll-sitemap jekyll-redirect-from jemoji
 
       - name: Build site
-        run: jekyll build --strict_front_matter
+        run: jekyll build --strict_front_matter --skip-bundle
         env:
           JEKYLL_ENV: production
